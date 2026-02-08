@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            li:nth-child(even){
+                background-color:violet;
+            }
+            li:nth-child(n+1){
+                background-color: blue;
+                font-weight: bold;
+            }
+            li:nth-child(n+3){
+                border: 20px solid green;
+            }
+            li:nth-child(n+4){
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>CSS :nth-child() Demo</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </body>
+</html>
